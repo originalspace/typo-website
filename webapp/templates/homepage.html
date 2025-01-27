@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typo - Pen & Paper</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='webapp.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <a href="/homepage">typo</a>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="/read_user">Read</a></li>
+                <li><a href="/new_paper">Write</a></li>
+                <li><a href="/my_posts">My Posts</a></li> 
+            </ul>
+        </div>
+    </nav>
+
+    <section id="main-section">
+        <div class="section-text">
+            <h1 class="section-title">Pen & Paper</h1>
+            <p class="section-text-p">Type anything.</p>
+            <div class="write-link">
+                <a href="/new_paper">Write</a>
+            </div>
+        </div>
+    </section>
+    <footer id="desktop-footer">
+        <div>
+            <ul class="footer-links">
+                <li><a href="/contact_us_user">Contact us</a></li>
+                <li><a href="/about_us_user">About us</a></li>
+                <li><a href="https://x.com/o7056327873695">X</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

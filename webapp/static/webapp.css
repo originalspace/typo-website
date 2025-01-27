@@ -1,0 +1,180 @@
+/* PAGE GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(214, 214, 214);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+html {
+    scrollbar-width: smooth;
+}
+
+p {
+    color: rgb(91, 91, 91);
+}
+
+/* NAV */
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    font-size: 1rem;
+    list-style: none;
+}
+
+a {
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-family: "Patua One";
+}
+
+
+
+
+/* SECTION */
+
+#main-section {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.section-text {
+    align-self: center;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+
+.section-text-p {
+    margin-top: .2rem;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+/* FOOTER */
+
+footer, .footer-links {
+    display: flex;
+}
+
+footer {
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+}
+
+.footer-links {
+    gap: 2rem;
+    font-size: .8rem;
+    list-style: none;
+}
+
+
+/* SIGNUP */
+
+form {
+    margin:0;
+    padding: 30vh;
+}
+
+.form-inputs {
+    list-style: none;
+}
+
+
+input {
+    width: 100%;
+    padding: 15px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(159, 159, 159);
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* BUTTON */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    width: 8rem;
+    color: rgb(94, 94, 94);
+    background-color: rgb(214, 214, 214);
+    font-size: 1rem;
+
+}
+
+/* ABOUT US */
+
+#about-us {
+    padding: 20vh;
+}
+
+.about-us-title {
+    align-self: center;
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+
+.about-us-p {
+    font-size: 1.1rem;
+    padding: 30px;
+    align-self: center;
+    text-align: center;
+}
+
+.about-us-p4 {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+/* MY POSTS */
+
+#my-posts-nav, .my-posts-link {
+    display: flex;
+    padding: 20vh;
+}
+
+.my-posts-title {
+    align-self: center;
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+
+.my-posts-link {
+    font-size: 1.1rem;
+    padding: 30px;
+    align-self: center;
+    text-align: center;
+}
+
+

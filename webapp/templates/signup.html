@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Typo</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='webapp.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <a href=".">typo</a>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="/read">Read</a></li>
+                <li><a href="/sign_up">Write</a></li>
+                <li><a href="/login">Login</a></li> 
+            </ul>
+        </div>
+    </nav>
+    <form method="POST" id="desktop-form">
+        <div>
+            <ul class="form-inputs">
+                <li><input type="text" placeholder="USERNAME" id="userName" name="userName" ></li>
+                <li><input type="email" placeholder="EMAIL" id="email"  name="email" ></li>
+                <li><input type="password" placeholder="PASSWORD" id="password" name="password" ></li>
+            </ul>
+            <div class="btn-container">
+                <button class="btn" type="submit">Sign up</button>
+            </div>
+        </div>
+    </form>
+    <footer id="desktop-footer">
+        <div>
+            <ul class="footer-links">
+                <li><a href="/contact_us">Contact us</a></li>
+                <li><a href="/about_us">About us</a></li>
+                <li><a href="https://x.com/o7056327873695">X</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
